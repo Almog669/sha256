@@ -80,7 +80,7 @@ void make_packet(char *inputname) {
             linebreak++;
             shift -= 8;
             pickoff++;
-            if (linebreak == 4 && i != lastword -1 && inputname[i+1] != '\0'){// || linebreak == 4 &&  m[i + 1] != '\0'){
+            if (linebreak == 4 && i != lastword -1 && inputname[i+1] != '\0'){
                 printf("j is : %d ",j);
                 bin(m[j]);
                 linebreak = 0;                
@@ -163,7 +163,6 @@ void compres_func(uint32_t m[],uint32_t H_vals[],uint32_t Working_vars[],uint32_
     for(i = 0 ;i < 8; i++){
         H_vals[i] = H_vals[i] + Working_vars[i];
     }
-    //printhash(H_vals);
 }
 
 uint32_t first_32_bits_of_sqrt(uint32_t num) {
