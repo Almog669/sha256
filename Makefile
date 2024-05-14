@@ -15,7 +15,7 @@ EXEC = sha
 
 # Rule to build the executable
 $(EXEC): $(OBJS)
-	$(CC) $(CFLAGS) $^ -o $@ -lm  # Add -lm to link with the math library
+	$(CC) $(CFLAGS) $^ -o $@ -lm
 
 # Rule to compile source files into object files
 %.o: %.c
