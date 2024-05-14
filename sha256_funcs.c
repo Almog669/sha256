@@ -1,7 +1,5 @@
 #include"sha256.h"
 
-
-
 void split_64bit_int(uint64_t num, uint32_t *left, uint32_t *right) {
     // Extract the left 32 bits by shifting right by 32 bits
     *left = (int)(num >> 32);

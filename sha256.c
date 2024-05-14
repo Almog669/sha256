@@ -77,7 +77,7 @@ void compare_arrays(uint32_t arr1[], uint32_t arr2[], int size) {
 }
 
 int main() {
-    char *str = "012";
+    char *str = "hello alabama";
     make_packet(str);
     return 0;
 }
