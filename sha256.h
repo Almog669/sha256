@@ -2,7 +2,7 @@
 #ifndef SHA_H
 #define SHA_H
 
-#include <stdbool.h>//for bool
+#include<stdbool.h>//for bool
 #include<string.h>// for strlen()
 #include<stdio.h>// for printf()
 #include<stdint.h>// for uint32_t

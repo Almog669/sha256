@@ -66,7 +66,7 @@ void compare_arrays(uint32_t arr1[], uint32_t arr2[], int size) {
     for (int i = 0; i < size; ++i) {
         if (arr1[i] != arr2[i]) {
             printf("not equal\n"); 
-            printf("value arr1 %u at index :%d\n", arr1[i],i);
+            printf("value arr1%u at index :%d\n", arr1[i],i);
             printf("value arr2%u at index :%d\n", arr2[i],i);
             printf("%08X\n", arr1[i]);
             printf("%08X\n", arr2[i]);
@@ -77,7 +77,7 @@ void compare_arrays(uint32_t arr1[], uint32_t arr2[], int size) {
 }
 
 int main() {
-    char *str = "hello alabama";
+    char *str = "wake up ";
     make_packet(str);
     return 0;
 }
